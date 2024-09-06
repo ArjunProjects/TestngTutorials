@@ -1,52 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="9" total="12" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-27T11:05:45 IST" name="Suite" finished-at="2024-08-27T11:05:45 IST" duration-ms="106">
+  <suite started-at="2024-09-06T13:29:06 IST" name="Default suite" finished-at="2024-09-06T13:29:06 IST" duration-ms="61">
     <groups>
-      <group name="all">
-        <method signature="Search.searchForInalidProduct()[pri:2, instance:groupannotation.Search@593aaf41]" name="searchForInalidProduct" class="groupannotation.Search"/>
-        <method signature="Search.searchForValidProduct()[pri:1, instance:groupannotation.Search@593aaf41]" name="searchForValidProduct" class="groupannotation.Search"/>
-        <method signature="Search.searchWithoutSearchItem()[pri:3, instance:groupannotation.Search@593aaf41]" name="searchWithoutSearchItem" class="groupannotation.Search"/>
-      </group> <!-- all -->
-      <group name="regression">
-        <method signature="Search.searchForInalidProduct()[pri:2, instance:groupannotation.Search@593aaf41]" name="searchForInalidProduct" class="groupannotation.Search"/>
-        <method signature="Search.searchForValidProduct()[pri:1, instance:groupannotation.Search@593aaf41]" name="searchForValidProduct" class="groupannotation.Search"/>
-        <method signature="Search.searchWithoutSearchItem()[pri:3, instance:groupannotation.Search@593aaf41]" name="searchWithoutSearchItem" class="groupannotation.Search"/>
-      </group> <!-- regression -->
-      <group name="Search">
-        <method signature="Search.searchForInalidProduct()[pri:2, instance:groupannotation.Search@593aaf41]" name="searchForInalidProduct" class="groupannotation.Search"/>
-        <method signature="Search.searchForValidProduct()[pri:1, instance:groupannotation.Search@593aaf41]" name="searchForValidProduct" class="groupannotation.Search"/>
-        <method signature="Search.searchWithoutSearchItem()[pri:3, instance:groupannotation.Search@593aaf41]" name="searchWithoutSearchItem" class="groupannotation.Search"/>
-      </group> <!-- Search -->
-      <group name="smoke">
-        <method signature="Search.searchForValidProduct()[pri:1, instance:groupannotation.Search@593aaf41]" name="searchForValidProduct" class="groupannotation.Search"/>
-      </group> <!-- smoke -->
-      <group name="sanity">
-        <method signature="Search.searchForInalidProduct()[pri:2, instance:groupannotation.Search@593aaf41]" name="searchForInalidProduct" class="groupannotation.Search"/>
-        <method signature="Search.searchForValidProduct()[pri:1, instance:groupannotation.Search@593aaf41]" name="searchForValidProduct" class="groupannotation.Search"/>
-        <method signature="Search.searchWithoutSearchItem()[pri:3, instance:groupannotation.Search@593aaf41]" name="searchWithoutSearchItem" class="groupannotation.Search"/>
-      </group> <!-- sanity -->
     </groups>
-    <test started-at="2024-08-27T11:05:45 IST" name="RegisterTest" finished-at="2024-08-27T11:05:45 IST" duration-ms="8">
-    </test> <!-- RegisterTest -->
-    <test started-at="2024-08-27T11:05:45 IST" name="LoginTest" finished-at="2024-08-27T11:05:45 IST" duration-ms="1">
-    </test> <!-- LoginTest -->
-    <test started-at="2024-08-27T11:05:45 IST" name="SearchTest" finished-at="2024-08-27T11:05:45 IST" duration-ms="41">
-      <class name="groupannotation.Search">
-        <test-method signature="searchForValidProduct()[pri:1, instance:groupannotation.Search@593aaf41]" started-at="2024-08-27T11:05:45 IST" name="searchForValidProduct" finished-at="2024-08-27T11:05:45 IST" duration-ms="8" status="PASS">
+    <test started-at="2024-09-06T13:29:06 IST" name="Default test" finished-at="2024-09-06T13:29:06 IST" duration-ms="61">
+      <class name="ddt.SampleDemoDataProvider">
+        <test-method signature="printData([Ljava.lang.String;)[pri:0, instance:ddt.SampleDemoDataProvider@57af006c]" started-at="2024-09-06T13:29:06 IST" name="printData" data-provider="data" finished-at="2024-09-06T13:29:06 IST" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@73eb439a]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- searchForValidProduct -->
-        <test-method signature="searchForInalidProduct()[pri:2, instance:groupannotation.Search@593aaf41]" started-at="2024-08-27T11:05:45 IST" name="searchForInalidProduct" finished-at="2024-08-27T11:05:45 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchForInalidProduct -->
-        <test-method signature="searchWithoutSearchItem()[pri:3, instance:groupannotation.Search@593aaf41]" started-at="2024-08-27T11:05:45 IST" name="searchWithoutSearchItem" finished-at="2024-08-27T11:05:45 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchWithoutSearchItem -->
-      </class> <!-- groupannotation.Search -->
-    </test> <!-- SearchTest -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- printData -->
+      </class> <!-- ddt.SampleDemoDataProvider -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

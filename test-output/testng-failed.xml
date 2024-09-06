@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="annotationstests.IgnoreAnnotationClassLevel">
+      <class name="ddt.SampleDemoDataProvider">
         <methods>
-          <include name="getAppTitle"/>
-          <include name="getAppUrl"/>
+          <include name="printData"/>
         </methods>
-      </class> <!-- annotationstests.IgnoreAnnotationClassLevel -->
+      </class> <!-- ddt.SampleDemoDataProvider -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

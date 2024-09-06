@@ -16,12 +16,12 @@ public class Register {
 		System.out.println("resisterByProvidingAllFields - Register");
 	}
 	
-	@Test(priority=3,groups= {"sanity","regression","Register","all"})
+	@Test(priority=3,groups= {"Register","all"})
 	public void resisterByNotProvidingAnyFields() {
 		System.out.println("resisterByNotProvidingAnyFields - Register");
 	}
 	
-	@Test(priority=4,groups= {"sanity","regression","Register","all"})
+	@Test(priority=4,groups= {"sanity","Register","all"})
 	public void resisterByProvidingDuplicateEmail() {
 		System.out.println("resisterByProvidingDuplicateEmail - Register");
 	}
